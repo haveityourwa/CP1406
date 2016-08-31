@@ -1,0 +1,35 @@
+@charset  "UTF-8"; /* Define Character Set */
+
+/* -------- Sitemap ------------------------------------ */
+/* Hyperlinks */
+a.sitemap {
+	display: block;
+	color : #333;
+	text-decoration: none;
+}
+li a.sitemap {
+	display: inline;
+	color : #000;
+	text-decoration: none;
+	background-color: transparent;
+}
+/* List styling */
+li.sitemap {
+	list-style-type: none;   
+	margin-left: .5em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-left: .5em;
+	line-height: 1;
+}
+&>li:first-child.sitemap {
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+ul.sitemap {
+	margin-left: .5em;
+}
+li.sitemap {
+	border-left: 5px solid #861b3f;
+}

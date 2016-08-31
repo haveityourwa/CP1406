@@ -1,0 +1,46 @@
+@charset  "UTF-8"; /* Define Character Set */
+
+/* -------- Blockquotes -------------------------------- */
+blockquote {
+	background: #fff;
+	padding: 15px 20px 15px 45px;
+	margin: 0 20px 20px 20px;
+	height: auto;
+	font-family: Georgia,serif;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #000;
+	text-align: justify;
+	border-left: 20px solid #861b3f;
+	border-right: 5px solid #861b3f;
+	-moz-box-shadow: 2px 2px 15px #861b3f;
+	-webkit-box-shadow: 2px 2px 15px #861b3f;
+	box-shadow: 2px 2px 15px #861b3f;
+	background: rgba(255,255,255,0.8);
+}
+/* Before */
+blockquote::before {
+	font-size: 60px;
+	font-weight: 700;
+	color: #999;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+/* After */
+blockquote::after {
+	content: "";
+}
+/* 400x302 Image */
+blockquote.img400302 {
+	min-height: 302px;
+	margin: 0 0 0 220px;
+	margin: 40px 0 0 420px;
+}
+/* 450x300 Image */
+blockquote.img450300 {
+	margin: 0 0 0 220px;
+	margin: 20px 0 40px 320px;
+	width: auto;
+	padding: 5px 20px 15px 45px;
+}

@@ -1,0 +1,109 @@
+@charset  "UTF-8"; /* Define Character Set */
+@import  "http://weloveiconfonts.com/api/?family=entypo"; /* Import FontFace */
+
+/* -------- Declare Custom Fonts Using FontFace -------- */
+@font-face {
+	font-family: 'SGK001';
+	src: url(../fonts/SGK001.ttf);
+}
+@font-face {
+	font-family: 'MajelBold';
+	src: url(../fonts/MajelBold.ttf);
+}
+
+/* -------- <h1> --------------------------------------- */
+h1 {
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'MajelBold';
+	color: #000;
+}
+/* Main Title */
+h1.title { 
+	margin: 8px 0 0 0;	
+	font-size: 130px;
+	padding-bottom: 0;
+	text-shadow: 0 0 0.05em #D53369, 0 0 0.05em #D53369;
+	line-height: 110px;
+}
+/* SubTitle */
+h1.subtitle {
+	margin: 0 0 8px 0;
+	font-size: 40px;
+	text-shadow: 0 0 0.1em #D53369, 0 0 0.1em #D53369;
+}
+
+/* -------- <h2> --------------------------------------- */
+h2 {
+	margin: 8px 20px 8px 20px;
+	color: #000;
+	font-family: 'Source Sans Pro',sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 30px;
+	border-bottom: 1px #861b3f solid;
+	box-shadow: 0 2px 2px -2px #861b3f;
+	font-weight: bold;
+}
+
+/* -------- <h3> --------------------------------------- */
+h3 {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	padding: 1px 0 14px 0;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: #000;
+}
+/* h3 Light */
+h3.light {	
+	background: rgba(255, 255, 255, 0.4);
+	padding: 0.3em;
+	margin-bottom: 15px;
+	text-indent: 20px;
+	-moz-box-shadow: 2px 2px 15px #D53369;
+	-webkit-box-shadow: 2px 2px 15px #D53369;
+}
+/* h3 Heavy */
+h3.heavy {
+	color: #861b3f;
+	font-weight: bold;
+}
+
+/* -------- Hyperlinks -------------------------------- */
+a:-webkit-any-link {
+	font-weight: bold;
+    text-decoration: none;
+    cursor: auto;
+}
+/* Link w/Grey Background */
+a:-webkit-any-link.greybg {
+    background: #eee;
+    padding: 0 3px;
+    color: #861b3f;
+}
+
+/* -------- Label ------------------------------------- */
+label {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 16px;
+	display:block;
+	margin-top:20px;
+	letter-spacing:2px;
+	margin-bottom:8px;
+}
+
+/* -------- Retrotext --------------------------------- */
+.retrotext {
+	font-family: 'SGK001';
+	font-size: 24px;
+	line-height: 1.2;
+	color: #000;
+	text-align: justify;
+}
+
+
+
+
+
