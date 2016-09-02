@@ -1,7 +1,5 @@
 <html>
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
-    <link href="css/blockquote.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
     <link href="css/sitemap.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -32,7 +30,7 @@ li a:hover:not(.active) {
     background-color: #111;
 }
 body  {
-	background-image: url("http://localhost/website/BeachVolleyball/BeachVolleyball/beachNet.jpg");
+	background-image: url("BeachVolleyball/BeachVolleyball/beachNet.jpg");
 }
 h6 {
 	font: 400 60px/1.3 'Lobster Two', Helvetica, sans-serif;
@@ -42,6 +40,7 @@ h6 {
 	text-decoration: none;
 	font-weight: bold;
 	color: white;
+	margin: 2px 2px 2px 2px;
 }
 h3 {
 	font: 400 400px/1.3 'Lobster Two', Helvetica, sans-serif;

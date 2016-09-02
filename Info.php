@@ -10,7 +10,7 @@
 		About Volleyball
 	</h3>
 	<ul class="red">
-	<img style="float: right; margin: 15px 15px 15px 15px;" src="http://localhost/website/BeachVolleyball/BeachVolleyball/5208457834_f7d61d8445_z.jpg" width="300";>
+	<img style="float: right; margin: 15px 15px 15px 15px;" src="BeachVolleyball/BeachVolleyball/5208457834_f7d61d8445_z.jpg" width="300";>
 	<p>
 		Volleyball is a team sport played by two teams on a playing court divided by a net. 
 		The sport originated in the United States, and is now just achieving the type of popularity in the U.S. that it has received on a global basis, where it ranks behind only soccer among participation sports. 
@@ -20,6 +20,8 @@
 	<p>
 		The team winning a rally scores a point (Rally Point System). When the receiving team wins a rally, it gains a point and the right to serve, and its players rotate one position clockwise. 
 		The best of three or best of five games will win matches. Each non-deciding game will be won by the team that first scores 25 points with a minimum two-point advantage (no scoring cap). If there is a deciding game, it will be won by the team that first scores 15 points with a minimum two-point advantage (no scoring cap). 
+	</p>
+	<p>Reproduced from <a href="http://www.volleyball.org/whatis.html">http://www.volleyball.org/whatis.html</a> 
 	</p>
 	</ul>
 		<h3>
